@@ -1,0 +1,35 @@
+/*usikker på om jeg burde lage en egen body fil*/
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Space Grotesk",sans-serif;    
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+@media only screen and (max-width: 600px) {
+  /*mobil*/
+  .timer__clock {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /*pc*/
+  .timer__clock {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*stor pc*/
+  .timer__clock {
+    font-size: 10rem;
+  }
+}
