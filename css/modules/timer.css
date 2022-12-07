@@ -1,4 +1,4 @@
-/*usikker på om jeg burde lage en egen fil for hver av css klassene*/
+/*usikker på om jeg burde lage ulike modules filer for hver av klassene her*/
 
 .timer {
   display: flex;
