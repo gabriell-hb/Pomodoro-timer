@@ -1,3 +1,5 @@
+// www.freecodecamp.org/news/learn-javascript-by-building-a-project/
+
 const studyButton = document.querySelector('.timer__study');
 const shortBreakButton = document.querySelector('.timer__short-break');
 const longBreakButton = document.querySelector('.timer__long-break');

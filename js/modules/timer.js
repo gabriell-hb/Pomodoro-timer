@@ -1,3 +1,6 @@
+// www.educative.io/answers/how-to-build-a-counter-application-with-javascript
+
+
 let time = 1500;
 let isRunning = false;
 
